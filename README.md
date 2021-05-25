@@ -1,6 +1,6 @@
 # flixel-tools
 
-A couple of **[HaxeFlixel](https://haxeflixel.com)** tools I made to help me port **[Kill The Twitter Bird](https://github.com/ACrazyTown/TwitterBird)** to said HaxeFlixel.
+A couple of **[HaxeFlixel](https://haxeflixel.com)** tools I made to help me port **[Kill The Twitter Bird](https://github.com/ACrazyTown/TwitterBird)** to said HaxeFlixel. Decided I might as well open-source it so I did.
 
 Currently, the only available tool is the Adjustment Tool, which makes adjusting objects easier.
 
