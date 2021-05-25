@@ -43,8 +43,8 @@ class AdjustmentState extends FlxState
 		// haxeflixel adds an offset of 32???
 		// i tried using this tool and it worked after i added an additional 32 so yeah????
 		// ppl with better haxeflixel skills pls help :pray:
-		txtX.text = "X pos: " + (grass.x + 32);
-		txtY.text = "Y pos: " + (grass.y + 32);
+		txtX.text = "X pos: " + (texty.x + 32);
+		txtY.text = "Y pos: " + (texty.y + 32);
 
 		if (FlxG.keys.pressed.LEFT)
 			texty.x--;
