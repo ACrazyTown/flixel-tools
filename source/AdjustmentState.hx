@@ -1,6 +1,5 @@
 package;
 
-import haxe.macro.Type.TypedExpr;
 import flixel.FlxSprite;
 import flixel.util.FlxColor;
 import flixel.FlxG;
