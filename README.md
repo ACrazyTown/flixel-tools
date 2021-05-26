@@ -4,8 +4,6 @@ A couple of **[HaxeFlixel](https://haxeflixel.com)** tools I made to help me por
 
 Currently, the only available tool is the Adjustment Tool, which makes adjusting objects easier.
 
-**IF ANYONE GOOD WITH HAXEFLIXEL IS LOOKING AT THIS REPO, WHY DOES HAXEFLIXEL NEED +32px TO THE X AND Y AXIS FOR IT TO WORK PROPERLY pls tell me thanks**
-
 ## Building
 
 Building this is VERY simple because it's HaxeFlixel, I mean like come on man.
