@@ -39,11 +39,11 @@ class AdjustmentState extends FlxState
 	{
 		super.update(elapsed);
 
-		// haxeflixel adds an offset of 32???
-		// i tried using this tool and it worked after i added an additional 32 so yeah????
-		// ppl with better haxeflixel skills pls help :pray:
-		txtX.text = "X pos: " + (texty.x + 32);
-		txtY.text = "Y pos: " + (texty.y + 32);
+		// turns out FlxNapeSprite and FlxSprite's x and y thingies are different
+		// i had to tweak the code for FlxNapeSprites and then it positioned well
+		// i have no idea why, still seeking help from good Haxeflixeleres!!!
+		txtX.text = "X pos: " + (texty.x);
+		txtY.text = "Y pos: " + (texty.y);
 
 		if (FlxG.keys.pressed.LEFT)
 			texty.x--;
